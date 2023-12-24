@@ -1,0 +1,55 @@
+.user-information{
+    background: #333;
+    padding: 1.8rem 1.8rem;
+    border-radius: 0.7rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+    color: #56a6e3;
+    margin: 0.7rem 0;
+}
+
+.user-information image{
+    width: 30%;
+    margin-right: 2rem;
+}
+.user-information .image img{
+    width: 12rem;
+    border-radius: 0.7rem;
+    object-fit: cover;
+}
+
+.user-content{
+    padding: 0.6rem;
+}
+.more-data p{
+    padding: 0.3rem;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+.more-data img{
+    width: 1.2rem
+}
+
+.back{
+    background: #6cc644;
+    color:#051d30;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    display: inline-block;
+}
+.user-repos{
+    background-color: #f5f5f5;
+    padding: 0.7rem 2.3rem;
+    margin: 1.3rem 0;
+    border-radius: 0.7rem;
+}
+.repo{
+    padding: 1.2rem;
+    border-bottom: 0.1rem solid black;
+}
